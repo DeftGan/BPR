@@ -12,10 +12,10 @@ plt.figure(figsize=(10, 5))
 
 # Loss plot
 plt.subplot(1, 2, 1)
-plt.plot(range(len(losses)), losses, label='Training Loss')
+plt.plot(range(len(losses)), losses, label='Loss')
 plt.xlabel('Epoch')
 plt.ylabel('Loss')
-plt.title('Training Loss')
+plt.title('Loss')
 plt.legend()
 
  #Accuracy plot
